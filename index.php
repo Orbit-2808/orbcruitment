@@ -39,8 +39,10 @@
                 <input class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300"
                     required type="text" placeholder="Kelurahan" name="address[district]" id="district">
                 <div class="flex space-x-4">
-                    <input type="password" name="password" placeholder="Kata Sandi" class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300" required>
-                    <input type="password" name="confirm_password" placeholder="Konfirmasi Kata Sandi" class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300" required>
+                    <input class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300"
+                        required type="password" name="password" placeholder="Kata Sandi">
+                    <input class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300"
+                        required type="password" name="confirm_password" placeholder="Konfirmasi Kata Sandi">
                 </div>
     
                 <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md">Daftar</button>
