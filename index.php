@@ -37,7 +37,9 @@
                 <select class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300"
                     required name="address[city]" id="city"></select>
                 <input class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300"
-                    required type="text" placeholder="Kelurahan" name="address[district]" id="district">
+                    required type="text" placeholder="Kecamatan" name="address[district]" id="district">
+                <input class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300"
+                    required type="text" placeholder="Kelurahan" name="address[subdistrict]" id="subdistrict">
                 <div class="flex space-x-4">
                     <input class="w-full p-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#1e3a8a] transition duration-300"
                         required type="password" name="password" placeholder="Kata Sandi">
